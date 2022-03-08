@@ -1,0 +1,24 @@
+{
+  "product": [
+    {
+      "id": 2,
+      "name": "Caneta",
+      "price": 3.5
+    },
+    {
+      "id": 2,
+      "name": "Notbook Pro",
+      "price": 3.5
+    },
+    {
+      "id": 2,
+      "name": "Tv",
+      "price": 3.5
+    },
+    {
+      "name": "geladeira",
+      "price": "5000",
+      "id": 3
+    }
+  ]
+}
