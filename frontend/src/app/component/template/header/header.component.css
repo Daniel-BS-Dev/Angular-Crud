@@ -1,0 +1,22 @@
+.heard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 32px;
+    margin-right: 25px;
+}
+
+.title{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-bottom: 10px;
+    
+}
+
+.title i{
+    padding-right: 10px;
+}
