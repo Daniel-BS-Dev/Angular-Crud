@@ -10,19 +10,27 @@ import { HeaderComponent } from './component/template/header/header.component';
 // para usar na minha header
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { FooterComponent } from './component/template/footer/footer.component';
+import { NavComponent } from './component/template/nav/nav.component';
+
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    NavComponent
   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule  // qualquer module que usa outro import
+    MatToolbarModule, // qualquer module que usa outro import
+    MatSidenavModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent] // apponta para o meu app.component
