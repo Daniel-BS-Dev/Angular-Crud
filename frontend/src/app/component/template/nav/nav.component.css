@@ -1,6 +1,7 @@
 .sidenav{
     width: 150px;
     background: #1c1c1c;
+    opacity: 0.9;
 
 }
 
@@ -13,4 +14,9 @@
 
 .sidenav a i{
     padding-right: 5px;
+}
+
+.content-home{
+    padding: 16px;
+    background: #fff;
 }
