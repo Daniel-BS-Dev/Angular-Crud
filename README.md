@@ -63,3 +63,10 @@ ng new name-pasta
 `
  ng new name-pasta --minimal
 `
+
+## Criando a Home
+`
+ng g c views/home
+`
+
+
