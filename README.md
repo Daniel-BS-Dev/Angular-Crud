@@ -74,3 +74,9 @@ ng g c views/home
 ng g d directives/home
 `
 
+## table
+`
+ng generate @angular/material:table component/product/product-read2
+`
+
+
