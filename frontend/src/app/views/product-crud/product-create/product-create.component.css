@@ -1,5 +1,24 @@
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-buttons{
+    width: 98%;
+    display: flex;
+    justify-content: end;
+  
+
+}
+
+.container-buttons button:first-child{
+ margin-right: 20px;    
+
+}
+
+
 .buttonCancel{
-    width: 200px;
-    background: lightcoral;
-    color: white;
+    background: tomato;
+    
 }

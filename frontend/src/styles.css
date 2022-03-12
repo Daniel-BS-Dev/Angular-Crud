@@ -11,8 +11,17 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     vertical-align: middle;
 }
 
-.buttonCreate{
+.button{
     width: 200px;
+    height: 40px;
     background: #1c1c1c;
+    text-transform: uppercase;
     color: white;
+    transition: 1s all;
+}
+
+.button:hover{
+    opacity: 0.8;
+    transform: scaleY(1.1);
+    border-radius: 10px;
 }

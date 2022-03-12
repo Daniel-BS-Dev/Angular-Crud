@@ -39,6 +39,11 @@
       "name": "product de teste",
       "price": 125.98,
       "id": 7
+    },
+    {
+      "name": "veio do formulario",
+      "price": "200000000",
+      "id": 8
     }
   ]
 }

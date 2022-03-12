@@ -1,8 +1,29 @@
-<button mat-raised-button (click)="createProduct()" class="buttonCreate">
-   Salva
-</button>
+<mat-card>
+   <mat-card-title>Novo Produto</mat-card-title>
+   <form>
 
-<button mat-raised-button (click)="cancel()" class="buttonCancel">
-    Cancelar
- </button>
+    <mat-form-field>
+      <input matInput placeholder="Nome" name="name" [(ngModel)]="product.name"> <!-- it going to do interation with name product -->
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Preço (R$)" name="price" [(ngModel)]="product.price">
+    </mat-form-field>
+   
+   </form>
+
+   <div class="container-buttons">
+      <button mat-raised-button (click)="createProduct()" class="button">
+         Salvar
+      </button>
+      
+      <button mat-raised-button (click)="cancel()" class="button buttonCancel">
+          Cancelar
+       </button>
+      
+   </div>
+   
+</mat-card>
+
+
+
 
