@@ -69,4 +69,8 @@ ng new name-pasta
 ng g c views/home
 `
 
+## diretivas
+`
+ng g d directives/home
+`
 
