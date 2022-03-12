@@ -12,7 +12,6 @@ export class ProductService {
 
   baseUrl = "http://localhost:3000/products";
 
-
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
 
   // função responsavel por mostar uma mensagem da tela quando criar produto
@@ -36,6 +35,11 @@ export class ProductService {
   readById(id: string): Observable<Product>{
     return this.http.get<Product>(`${this.baseUrl}/${id}`)
 
+  }
+
+  update(product: Product): Observable<Product>{
+    const url = `${this.baseUrl}/${product.id}`
+     return this.http.put<Product>(url, product)
   }
 }
 
