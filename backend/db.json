@@ -1,5 +1,5 @@
 {
-  "product": [
+  "products": [
     {
       "id": 2,
       "name": "Caneta",
@@ -19,6 +19,26 @@
       "name": "geladeira",
       "price": "5000",
       "id": 3
+    },
+    {
+      "name": "product de teste",
+      "price": 125.98,
+      "id": 4
+    },
+    {
+      "name": "product de teste",
+      "price": 125.98,
+      "id": 5
+    },
+    {
+      "name": "carro",
+      "price": "500000",
+      "id": 6
+    },
+    {
+      "name": "product de teste",
+      "price": 125.98,
+      "id": 7
     }
   ]
 }

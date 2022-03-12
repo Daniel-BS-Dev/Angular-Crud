@@ -22,6 +22,11 @@ import { RedDirective } from './directives/red.directive';
 import { ProductCreateComponent } from './views/product-crud/product-create/product-create.component';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 
+// importando o http agor vou usar no service
+import { HttpClientModule } from '@angular/common/http';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,7 +48,9 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     MatListModule,
     MatCardModule,
     MatButtonModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent] // apponta para o meu app.component
