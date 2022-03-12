@@ -1,44 +1,39 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Caneta",
-      "price": 3.5
-    },
-    {
-      "id": 2,
-      "name": "Notbook Pro",
-      "price": 3.5
-    },
-    {
-      "id": 3,
-      "name": "Tv",
-      "price": 3.5
-    },
-    {
-      "name": "geladeira",
-      "price": "5000",
-      "id": 4
-    },
-    {
-      "name": "carro",
-      "price": "500000",
-      "id": 5
-    },
-    {
-      "name": "product de teste",
-      "price": 125.98,
+      "name": "PlayStation",
+      "price": "3898",
       "id": 6
     },
     {
-      "name": "lapis preto",
-      "price": "1.20",
+      "name": "Notbook",
+      "price": "3499",
       "id": 7
     },
     {
-      "name": "carro",
-      "price": "1234567",
+      "name": "Computador",
+      "price": "4999",
       "id": 8
+    },
+    {
+      "name": "Monitor",
+      "price": "1000",
+      "id": 9
+    },
+    {
+      "name": "Teclado",
+      "price": "500",
+      "id": 10
+    },
+    {
+      "name": "Mouse",
+      "price": "50",
+      "id": 11
+    },
+    {
+      "name": "Fone de Ouvido",
+      "price": "200",
+      "id": 12
     }
   ]
 }

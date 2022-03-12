@@ -1,27 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-
-.red{
-    color: red;
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
-.v-middle{
-    vertical-align: middle;
+.red {
+  color: red;
 }
 
-.button{
-    width: 200px;
-    height: 40px;
-    background: #1c1c1c;
-    text-transform: uppercase;
-    color: white;
-    transition: 1s all;
+.v-middle {
+  vertical-align: middle;
 }
 
-.button:hover{
-    opacity: 0.8;
-    transform: scaleY(1.1);
-    border-radius: 10px;
+.button {
+  width: 200px;
+  height: 40px;
+  background: #1c1c1c;
+  text-transform: uppercase;
+  color: white;
+  transition: 1s all;
+}
+
+.button:hover {
+  opacity: 0.6;
+  transform: scaleY(1.1);
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-buttons {
+  width: 98%;
+  display: flex;
+  justify-content: end;
+}
+
+.container-buttons button:first-child {
+  margin-right: 20px;
+}
+
+.buttonCancel {
+  background: darkred;
+}
+
+.update {
+  background: darkblue;
+}
+
+.msg-success{
+    background:#28a745;
+    color: #FFF;
+}
+
+.msg-error{
+    background: darkred;
+    color: #FFF;
 }

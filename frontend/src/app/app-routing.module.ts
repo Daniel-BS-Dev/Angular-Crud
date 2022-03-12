@@ -5,7 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ProductUpdateComponent } from './component/product/product-update/product-update.component';
-import { ProductByIdComponent } from './component/product/product-by-id/product-by-id.component';
+
 
 const routes: Routes = [{
   path:"",
@@ -24,10 +24,7 @@ const routes: Routes = [{
   path: "products/update/:id",
   component: ProductUpdateComponent
 },
-{
-  path: "products/byId/:id",
-  component: ProductByIdComponent
-}
+
 ];
 
 @NgModule({
