@@ -4,6 +4,7 @@ import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Observable } from 'rxjs';
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -26,6 +27,10 @@ export class ProductService {
   // função responsavel por criar um produto, na pasta product-created
   createProduct(product: Product): Observable<Product>{  // vai return um observable do tipo product
   return this.http.post<Product>(this.baseUrl, product)
+  }
+
+  read(): Observable<Product[]>{
+    return this.http.get<Product[]>(this.baseUrl);
   }
 }
 
