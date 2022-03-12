@@ -44,6 +44,11 @@
       "name": "veio do formulario",
       "price": "200000000",
       "id": 8
+    },
+    {
+      "name": "lapis preto",
+      "price": "1.20",
+      "id": 9
     }
   ]
 }
