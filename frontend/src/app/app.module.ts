@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, LOCALE_ID } from '@angular/core'; // Locale_id é pra formatar a virgula
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -29,8 +29,16 @@ import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { ProductReadComponent } from './component/product/product-read/product-read.component';
+import { ProductRead2Component } from './component/product/product-read2/product-read2.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
+// para formatar a virgula
+import localePt from '@angular/common/locales/pt';
+import { registerLocaleData } from '@angular/common';
 
+registerLocaleData(localePt);
 
 @NgModule({
   declarations: [
@@ -42,7 +50,8 @@ import { ProductReadComponent } from './component/product/product-read/product-r
     ProductCrudComponent,
     RedDirective,
     ProductCreateComponent,
-    ProductReadComponent
+    ProductReadComponent,
+    ProductRead2Component
   
   ],
   imports: [
@@ -58,10 +67,13 @@ import { ProductReadComponent } from './component/product/product-read/product-r
     HttpClientModule,
     FormsModule,
     MatFormFieldModule, 
-    MatInputModule
+    MatInputModule, MatTableModule, MatPaginatorModule, MatSortModule
 
   ],
-  providers: [],
+  providers: [{
+    provide: LOCALE_ID, // para formatação da virgula
+    useValue: 'pt-BR'
+  }],
   bootstrap: [AppComponent] // apponta para o meu app.component
 })
 export class AppModule { }

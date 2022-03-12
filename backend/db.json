@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 2,
+      "id": 1,
       "name": "Caneta",
       "price": 3.5
     },
@@ -11,44 +11,31 @@
       "price": 3.5
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "Tv",
       "price": 3.5
     },
     {
       "name": "geladeira",
       "price": "5000",
-      "id": 3
-    },
-    {
-      "name": "product de teste",
-      "price": 125.98,
       "id": 4
     },
-    {
-      "name": "product de teste",
-      "price": 125.98,
-      "id": 5
-    },
+  
     {
       "name": "carro",
       "price": "500000",
-      "id": 6
+      "id": 5
     },
     {
       "name": "product de teste",
       "price": 125.98,
-      "id": 7
+      "id": 6
     },
-    {
-      "name": "veio do formulario",
-      "price": "200000000",
-      "id": 8
-    },
+   
     {
       "name": "lapis preto",
       "price": "1.20",
-      "id": 9
+      "id": 7
     }
   ]
 }
