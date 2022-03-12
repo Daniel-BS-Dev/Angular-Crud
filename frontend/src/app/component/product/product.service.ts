@@ -32,6 +32,11 @@ export class ProductService {
   read(): Observable<Product[]>{
     return this.http.get<Product[]>(this.baseUrl);
   }
+
+  readById(id: string): Observable<Product>{
+    return this.http.get<Product>(`${this.baseUrl}/${id}`)
+
+  }
 }
 
 // estou usando este service no product-created
