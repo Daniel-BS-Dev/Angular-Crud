@@ -28,6 +28,9 @@ no meu package.json no script
 npm start
 `
 
+### Site para construir o meu objeto
+`https://jsontots.pages.dev`
+
 ## Anotomia do Módulo
 - Declarations
    - Compononts
